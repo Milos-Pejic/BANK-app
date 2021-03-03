@@ -1,9 +1,7 @@
 import axios from 'axios'
 import { setHeader } from './auth.service'
 
-////83b090c98253452e90b671dd2c279c70
-////http://newsapi.org/v2/top-headlines?country=rs&apiKey=API_KEY
-//export const getNews=()=>axios.get('http://newsapi.org/v2/top-headlines?country=rs&apiKey=83b090c98253452e90b671dd2c279c70')
+
 const BASE_URL='http://45.32.157.171:8200/api'
 export const registerUser=(personal_id)=>{
    return axios.post(`${BASE_URL}/register`,{personal_id})

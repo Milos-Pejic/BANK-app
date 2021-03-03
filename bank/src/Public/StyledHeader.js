@@ -9,14 +9,19 @@ const StyledHeader = styled.div`
         justify-content: space-around;
         font-weight:800
     }
+    a:focus{
+        color:blue;
+    }
     a{
-        color: #74b9ff;
+        color:#74b9ff;
         border-radius:5px;
     }
+    
     a:hover{
         color: #00b894;
         transition: 0.3s ease; 
     }
+    
     
 `
 

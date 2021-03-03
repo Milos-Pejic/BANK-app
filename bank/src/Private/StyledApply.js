@@ -5,6 +5,8 @@ form{
   margin-top:50px;
   margin-bottom: 100px
 }
+
+
 h6{
     color:#74b9ff;
     font-size: 1.6rem;

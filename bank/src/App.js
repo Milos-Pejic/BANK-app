@@ -36,17 +36,3 @@ export default App;
 
 
 
-//const App = () => {
-  //  const [stroies, setStories] = useState([])
-  //  useEffect(() => {
-  //    getNews().then(res => {
-  //      console.log(res.data)
-  //      setStories(res.data.articles)
-  //    })
-  //  }, [])
-  //  return (
-  //    <>
-  //      {stroies.map(el=><p>{el.author}</p>)}
-  //    </>
-  //  )
-  //}
